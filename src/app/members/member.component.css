@@ -1,0 +1,39 @@
+.member-container{
+    width: 100%;
+    background-color: #DEBDBB;;
+}
+.imgM{
+    width: 30%;
+    padding: 2em;
+    background-size: cover;
+    background-attachment: fixed;
+    cursor: pointer;
+}
+.imgMember{
+    width: 100%;
+    border-radius: 0.2em;
+}
+.article-member{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+.detail-card{
+    width: 50%;
+    margin: 3em 0em;
+}
+.names{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.4em;
+    line-height: 1.2em;
+    color: #000000;
+}
+.lastname{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4em;
+    line-height: 1.2em;
+    color: #CD1F13;
+}
