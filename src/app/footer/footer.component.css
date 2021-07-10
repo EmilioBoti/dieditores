@@ -20,14 +20,36 @@
     flex-direction: row;
     align-items: baseline;
     font-size: 1em;
+}
+.far{
+    margin-right: 0.5em;
     color: #CD1F13;
 }
 @media (max-width: 414px){
    .footer{
-       width: 100vw;
+       display: flex;
+       flex-direction: row;
+       align-content: space-between;
+       justify-content: center;
+       width: 99vw;
    }
-    /* .container-info{
+   .email-footer{
+       /* margin-top: 0.8em; */
+       margin-left: 1em;
+       font-size: 0.8em;
+   }
+    .container-info{
+        padding: 0em 1em;
         display: grid;
         grid-template-rows: auto auto;
-    } */
+        justify-items: center;
+    }
+    .box-info{
+        width: 80%;
+        word-wrap: break-word;
+    }
+    .item{
+        font-size: 0.8em;
+        line-height: 1em;
+    }
 }

@@ -1,16 +1,21 @@
-<!-- <div *ngFor = "let m of collectionMember;">
+<div *ngFor = "let m of collectionMember;">
     <div class="member-container">
         <div class="article-member">
-            <div class="imgM">
+            
+            <div class="about-memb">
                 <img src="../../assets/DiEditoresIMG/h.jpg" alt="" class="imgMember">
+                <div class="detail-card">
+                    <p class="names">{{m.firstName}}</p>
+                    <p class="names">{{m.secondName}}</p>
+                    <p class="lastname">{{m.firstLastname}}</p>
+                    <p class="lastname">{{m.secondLastname}}</p>
+                </div>
             </div>
-            <div class="detail-card">
-                <p class="names">{{m.firstName}}</p>
-                <p class="names">{{m.secondName}}</p>
-                <p class="lastname">{{m.firstLastname}}</p>
-                <p class="lastname">{{m.secondLastname}}</p>
-                <p>{{m.description}}</p>
+
+            <div class="desc">
+                <p class="des">{{m.description}}</p>
             </div>
+
         </div>
     </div>
-</div> -->
+</div>
