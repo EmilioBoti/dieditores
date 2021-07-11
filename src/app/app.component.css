@@ -5,6 +5,7 @@ header{
     top: 0em;
     right: 0em;
     background-color: #fff;
+    box-shadow: 0em 0em 0.04em 0em rgb(139, 141, 141);
 }
 .nav-bar{
     padding: 0em 1em;
@@ -24,8 +25,9 @@ header{
     justify-content: center;
 }
 .item-list{
-    list-style: none;
     margin-left: 1.2em;
+    font-size: 0.8em;
+    list-style: none;
 }
 .item-list a{
     text-decoration: none;
