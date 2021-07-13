@@ -1,7 +1,7 @@
 import { Component, OnInit } from "@angular/core"
 
 //models
-import { ModelMember } from "../models/ModelMember"
+import { ModelMember } from "../../models/ModelMember"
 
 @Component({
     selector: "member",
@@ -17,13 +17,14 @@ export class MemberComponent implements OnInit{
             Sollicitudin varius sapien, dolor, senectus nulla adipiscing. Turpis fringilla urna, 
             morbi aliquet est tellus, scelerisque.Donec fusce mauris diam fames natoque turpis non. 
             Sollicitudin varius sapien, dolor, senectus nulla adipiscing. Turpis fringilla urna, 
-            morbi aliquet est tellus, scelerisque.`))
+            morbi aliquet est tellus, scelerisque.`,"../../assets/DiEditoresIMG/h.jpg" ))
         this.collectionMember.push(new ModelMember("María","Carla","Pirón","Chaparro", `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat mattis laoreet ut 
             eu, nam morbi. Donec fusce mauris diam fames natoque turpis non. 
             Sollicitudin varius sapien, dolor, senectus nulla adipiscing. Turpis fringilla urna, 
             morbi aliquet est tellus, scelerisque.Donec fusce mauris diam fames natoque turpis non. 
             Sollicitudin varius sapien, dolor, senectus nulla adipiscing. Turpis fringilla urna, 
-            morbi aliquet est tellus, scelerisque.`))
+            morbi aliquet est tellus, scelerisque.`,
+            "../../assets/DiEditoresIMG/m.jpg"))
     }
 
     ngOnInit(){

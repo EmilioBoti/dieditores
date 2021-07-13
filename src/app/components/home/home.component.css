@@ -1,0 +1,25 @@
+.home-container{
+    margin: 5em 0em;
+    display: grid;
+    grid-template-columns: 75%;
+    justify-content: center;
+}
+.title-about{
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+@media (max-width: 414px){
+    
+    .home-container{
+        padding: 5em 0em;
+        grid-template-columns: auto;
+    }
+    .about-container{
+        margin:  0em auto;
+        padding: 1em;
+    }
+    .about{
+        font-size: 1em;
+        text-align: justify;
+    }
+}

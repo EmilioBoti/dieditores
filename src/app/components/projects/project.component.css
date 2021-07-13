@@ -1,0 +1,6 @@
+.home-container{
+    margin: 5em 0em;
+    display: grid;
+    grid-template-columns: 75%;
+    justify-content: center;
+}

@@ -1,4 +1,5 @@
 .footer{
+    margin-top: 10em;
     display: grid;
     grid-template-columns: auto auto;
     justify-content: space-between;
@@ -8,6 +9,33 @@
     display: grid;
     grid-template-columns: auto auto;
     justify-content: end;
+}
+.email-footer{
+    padding: 1em 0em;
+    margin-left: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.email-footer span a{
+    text-decoration: none;
+    font-size: 0.7em;
+    color: #000;
+}
+.email-footer span a:hover{
+    color: #CD1F13;
+    cursor: pointer;
+}
+.media a{
+    margin-right: 0.4em;
+    color: #000;
+}
+.fab{
+    font-size: 1.4em;
+}
+.media p{
+    margin: 0em;
+    font-size: 0.7em;
 }
 .item{
     font-size: 0.8em;
