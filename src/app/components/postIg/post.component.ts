@@ -12,7 +12,7 @@ export class PostComponent implements OnInit{
     public images: any[]
     public flag: boolean
 
-    constructor(private renderer: Renderer2){
+    constructor(){
         this.flag = false
         this.images = [
             "../../../assets/DiEditoresIMG/post1.jpg",
