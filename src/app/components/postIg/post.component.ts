@@ -15,8 +15,8 @@ export class PostComponent implements OnInit{
     constructor(){
         this.flag = false
         this.images = [
-            "../../../assets/DiEditoresIMG/post1.jpg",
-            "../../../assets/DiEditoresIMG/post2.jpg",
+            " https://emilioboti.github.io/assets/DiEditoresIMG/post1.jpg",
+            " https://emilioboti.github.io/assets/DiEditoresIMG/post2.jpg",
             "../../../assets/DiEditoresIMG/post3.jpg",
             "../../../assets/DiEditoresIMG/post4.jpg",
             "../../../assets/DiEditoresIMG/post5.jpg",
