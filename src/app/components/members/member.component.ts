@@ -17,14 +17,14 @@ export class MemberComponent implements OnInit{
             Sollicitudin varius sapien, dolor, senectus nulla adipiscing. Turpis fringilla urna, 
             morbi aliquet est tellus, scelerisque.Donec fusce mauris diam fames natoque turpis non. 
             Sollicitudin varius sapien, dolor, senectus nulla adipiscing. Turpis fringilla urna, 
-            morbi aliquet est tellus, scelerisque.`," https://emilioboti.github.io/assets/DiEditoresIMG/h.jpg" ))
+            morbi aliquet est tellus, scelerisque.`," assets/DiEditoresIMG/h.jpg" ))
         this.collectionMember.push(new ModelMember("María","Carla","Pirón","Chaparro", `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat mattis laoreet ut 
             eu, nam morbi. Donec fusce mauris diam fames natoque turpis non. 
             Sollicitudin varius sapien, dolor, senectus nulla adipiscing. Turpis fringilla urna, 
             morbi aliquet est tellus, scelerisque.Donec fusce mauris diam fames natoque turpis non. 
             Sollicitudin varius sapien, dolor, senectus nulla adipiscing. Turpis fringilla urna, 
             morbi aliquet est tellus, scelerisque.`,
-            " https://emilioboti.github.io/assets/DiEditoresIMG/m.jpg"))
+            "assets/DiEditoresIMG/m.jpg"))
     }
 
     ngOnInit(){
