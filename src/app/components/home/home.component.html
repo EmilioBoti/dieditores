@@ -1,11 +1,11 @@
 <section class="home-container">
     <div class="about-container">
-      <h3 class="title-about">¿Quienes somos?</h3>
+      <h3 class="title-about" #child>¿Quienes somos?</h3>
       <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ipsam aspernatur quaerat facilis nobis eaque quae, beatae ea dolore, dignissimos molestias sed? Placeat autem omnis expedita pariatur, fugiat sunt quia ullam, perspiciatis temporibus nemo beatae iste velit laudantium? Voluptatum consequuntur inventore perferendis iusto accusamus molestiae tempora quasi mollitia ratione tempore molestias ullam totam, est animi placeat eligendi architecto unde asperiores enim. Aut possimus eius iure illum consectetur nulla praesentium eligendi repellendus consequatur, minima distinctio.
       </p>
     </div>
 </section>
 <section>
-    <postIg [saying] = "say"></postIg>
+    <postIg [saying] = "say" (getChild)="getObject($event)"></postIg>
     <member></member>
 </section>

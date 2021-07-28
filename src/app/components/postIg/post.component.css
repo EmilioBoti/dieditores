@@ -16,7 +16,7 @@
     border: 0.0em solid;
 }
 .container-scroll::-webkit-scrollbar{
-    height: 0.3em;
+    height: 0em;
 }
 .container-scroll::-webkit-scrollbar-thumb{
     background-color: #CD1F13;
@@ -33,19 +33,11 @@
     width: 15em;
     height: 100%;
 }
-/* .overlay{
-    width: 100%;
-    position: absolute;
-    bottom: 0em;
-    background-color: #00000044;
-    text-align: center;
-    color: #ffff;
-} */
-@media (max-width: 414px) {
+
+@media (max-width: 500px) {
     .post-container{
         padding: 1em;
         grid-template-columns: auto;
-        /* border: 0.0em solid; */
     }
     .title-about{
         margin-bottom: 1em;

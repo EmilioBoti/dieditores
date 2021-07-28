@@ -1,33 +1,30 @@
 import { Component, OnInit } from "@angular/core"
 
+//services
+import { ModelService } from "../../service/modelService.service"
 //models
 import { ModelMember } from "../../models/ModelMember"
 
 @Component({
     selector: "member",
     templateUrl: "./member.component.html",
-    styleUrls: ["./member.component.css"]
+    styleUrls: ["./member.component.css"],
+    providers: [ModelService]
 })
 export class MemberComponent implements OnInit{
     public collectionMember: ModelMember[] = []
 
-    constructor(){
-        this.collectionMember.push(new ModelMember("Hermis","Alberto","Rodríguez","Botier", `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat mattis laoreet ut 
-            eu, nam morbi. Donec fusce mauris diam fames natoque turpis non. 
-            Sollicitudin varius sapien, dolor, senectus nulla adipiscing. Turpis fringilla urna, 
-            morbi aliquet est tellus, scelerisque.Donec fusce mauris diam fames natoque turpis non. 
-            Sollicitudin varius sapien, dolor, senectus nulla adipiscing. Turpis fringilla urna, 
-            morbi aliquet est tellus, scelerisque.`," assets/DiEditoresIMG/h.jpg" ))
-        this.collectionMember.push(new ModelMember("María","Carla","Pirón","Chaparro", `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat mattis laoreet ut 
-            eu, nam morbi. Donec fusce mauris diam fames natoque turpis non. 
-            Sollicitudin varius sapien, dolor, senectus nulla adipiscing. Turpis fringilla urna, 
-            morbi aliquet est tellus, scelerisque.Donec fusce mauris diam fames natoque turpis non. 
-            Sollicitudin varius sapien, dolor, senectus nulla adipiscing. Turpis fringilla urna, 
-            morbi aliquet est tellus, scelerisque.`,
-            "assets/DiEditoresIMG/m.jpg"))
+    constructor(private _memberService: ModelService){  
     }
 
     ngOnInit(){
-
+        this._memberService.getUser().subscribe(
+            (response)=>{
+                console.log(response)
+                this.collectionMember = response
+            },
+            (error)=>{
+                console.error(<any>error)
+            })
     }
 }

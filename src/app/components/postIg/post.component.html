@@ -1,11 +1,8 @@
 <div class="post-container">
-    <h3 class="title-about" #post >Post Instagram</h3>
+    <h3 class="title-about">Post Instagram</h3>
     <div class="container-scroll">
-        <div class="post-img" *ngFor = "let i of images; let in = index" (click) = "hover($event)" id="post-img">
+        <div class="post-img" *ngFor = "let i of images; let in = index" id="post-img">
             <img src = {{i}} alt="" data-id= {{in}} class="imgP">
-            <div class="overlay" data-id= {{in}} *ngIf = "flag" >
-                {{saying}}
-            </div>
         </div>
     </div>
 </div>

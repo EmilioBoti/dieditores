@@ -38,6 +38,9 @@ header{
     color: #CD1F13;
     cursor: pointer;
 }
+.active-link{
+    color: #CD1F13;
+}
 .menu{
     display: none;
     color: #CD1F13;

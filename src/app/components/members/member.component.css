@@ -13,7 +13,7 @@
     line-height: 0.2em;
     color: #CD1F13;
 }
-@media (max-width: 414px) {
+@media (max-width: 500px) {
 
     .about-memb{
         width: 80%;

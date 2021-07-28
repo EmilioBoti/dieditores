@@ -1,0 +1,19 @@
+[
+    {
+        "firstName": "Hermis",
+        "secondName": "Alberto",
+        "firstLastname": "Rodríguez",
+        "secondLastname": "Botier",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat mattis laoreet ut eu nam morbi. Donec fusce mauris diam fames natoque turpis non. Sollicitudin varius sapien, dolor, senectus nulla adipiscing. Turpis fringilla urna, morbi aliquet est tellus, scelerisque.Donec fusce mauris diam fames natoque turpis non. Sollicitudin varius sapien, dolor, senectus nulla adipiscing. Turpis fringilla urna, morbi aliquet est tellus, scelerisque.",
+        "image": "assets/DiEditoresIMG/h.jpg"
+    },
+    {
+        "firstName": "María",
+        "secondName": "Carla",
+        "firstLastname": "Pirón",
+        "secondLastname": "Chaparro",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat mattis laoreet ut eu nam morbi. Donec fusce mauris diam fames natoque turpis non. Sollicitudin varius sapien, dolor, senectus nulla adipiscing. Turpis fringilla urna, morbi aliquet est tellus, scelerisque.Donec fusce mauris diam fames natoque turpis non. Sollicitudin varius sapien, dolor, senectus nulla adipiscing. Turpis fringilla urna, morbi aliquet est tellus, scelerisque.",
+        "image": "assets/DiEditoresIMG/m.jpg"
+    }
+    
+]

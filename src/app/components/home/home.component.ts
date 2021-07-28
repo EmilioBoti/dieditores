@@ -1,4 +1,4 @@
-import {Component, ViewChild, OnInit, AfterViewInit, AfterViewChecked  } from "@angular/core"
+import {Component, ViewChild, OnInit, ElementRef, AfterViewInit } from "@angular/core"
 import { PostComponent } from "../postIg/post.component"
 
 
@@ -7,20 +7,22 @@ import { PostComponent } from "../postIg/post.component"
     templateUrl: "./home.component.html",
     styleUrls: ["./home.component.css"]
 })
-export class HomeComponent implements OnInit, AfterViewInit, AfterViewChecked{
-    @ViewChild(PostComponent) public post!: PostComponent
+export class HomeComponent implements OnInit, AfterViewInit {
+    @ViewChild("child") public child!: ElementRef
 
     public say: string = "ok"
 
+    constructor(){
 
+    }
     ngOnInit(){
-
+        
     }
     ngAfterViewInit(){
-        console.log(this.post)
-        // this.post.__ngContext
+
+    
     }
-    ngAfterViewChecked(){
-        
+    getObject(e:any){
+        console.log(e)
     }
 }

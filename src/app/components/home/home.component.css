@@ -8,7 +8,10 @@
     margin-bottom: 1em;
     font-size: 2em;
 }
-@media (max-width: 414px){
+.a{
+    color: teal;
+}
+@media (max-width: 500px){
     
     .home-container{
         padding: 5em 0em;

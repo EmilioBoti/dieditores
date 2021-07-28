@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from "@angular/router"
+import { HttpClientModule} from "@angular/common/http"
 
 import {routing,appRoutingProviders} from "./app.routing"
 
@@ -9,6 +10,9 @@ import { HomeComponent } from "./components/home/home.component"
 import { PostComponent } from "./components/postIg/post.component"
 import { MemberComponent } from "./components/members/member.component"
 import { FooterComponent } from "./components/footer/footer.component"
+import { TestComponent } from "./components/testing/test.component";
+import { ContactComponent } from "./components/contact/contact.component"
+import { ErrorComponent } from './components/error/error.component'
 
 @NgModule({
   declarations: [
@@ -16,11 +20,15 @@ import { FooterComponent } from "./components/footer/footer.component"
     HomeComponent,
     PostComponent,
     MemberComponent,
-    FooterComponent
+    FooterComponent,
+    TestComponent,
+    ContactComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,
-    routing
+    routing,
+    HttpClientModule
   ],
   providers: [RouterModule,appRoutingProviders],
   bootstrap: [AppComponent]

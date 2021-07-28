@@ -17,13 +17,13 @@
         </svg>
     <nav class="nav-list" #nav>
       <ul class="list">
-        <li class="item-list"><a href="#" [routerLinkActive] = "['active']">Home</a></li>
-        <li class="item-list"><a [routerLink] = "['/members']" [routerLinkActive] = "['active']">Acerca</a></li>
-        <li class="item-list"><a href="#" [routerLinkActive] = "['active']">Proyectos</a></li>
-        <li class="item-list"><a href="#" [routerLinkActive] = "['active']">Contacto</a></li>
+        <li class="item-list"><a [routerLink]= "['/']" routerLinkActive = "active-link" [routerLinkActiveOptions] = "{ exact: true }">Home</a></li>
+        <li class="item-list"><a [routerLink] = "['/members']" routerLinkActive = "active-link">Acerca</a></li>
+        <li class="item-list"><a [routerLink] = "['/projects']" routerLinkActive = "active-link">Proyectos</a></li>
+        <li class="item-list"><a [routerLink] = "['/contact']" routerLinkActive = "active-link">Contacto</a></li>
       </ul>
     </nav>
-    <i class="fas fa-bars menu" (click)= "showMenu()" id="menu"></i>
+      <i class="fas fa-bars menu" (click)= "showMenu()" id="menu"></i>
   </div>
 </header>
 <main>

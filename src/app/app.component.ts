@@ -20,7 +20,7 @@ export class AppComponent  implements OnInit, AfterViewInit{
   ngOnInit(){
   }
   ngAfterViewInit(){
-    console.log(this.nav.nativeElement)
+    //console.log(this.nav.nativeElement)
   }
   showMenu(){
     const nav = this.nav.nativeElement
